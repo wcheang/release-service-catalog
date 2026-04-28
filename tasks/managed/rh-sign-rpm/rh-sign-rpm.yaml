@@ -190,7 +190,7 @@ spec:
                 "build_id": "test-build1",
                 "namespace": "rok-test"
               },
-              "url": "https://packages.redhat.com/api/pulp-content/konflux-direct-signing-test/test-build1/rpms/Packages/l/samba-4.23.4-1.el9.src.rpm",
+              "url": "https://packages.redhat.com/api/pulp-content/konflux-direct-signing-test/test-build1/rpms/Packages/s/samba-4.23.4-1.el9.src.rpm",
               "sha256": "105dc0785c7d10cfe1e757b7443a61d999061381ec310f177c8da8dbc7cde30e"
             },
             "bash-completion-2.11-5.el9.noarch.rpm": {
@@ -200,7 +200,7 @@ spec:
                 "build_id": "test-build1",
                 "namespace": "rok-test"
               },
-              "url": "https://packages.redhat.com/api/pulp-content/konflux-direct-signing-test/test-build1/rpms/Packages/l/bash-completion-2.11-5.el9.noarch.rpm",
+              "url": "https://packages.redhat.com/api/pulp-content/konflux-direct-signing-test/test-build1/rpms/Packages/b/bash-completion-2.11-5.el9.noarch.rpm",
               "sha256": "3a949c0111df035a47dd93bc043a5e0bf778f992e1620ad4ab47dbe29e9d112e"
             },
             "samba-gpupdate-4.23.4-1.el9.noarch.rpm": {
@@ -210,7 +210,7 @@ spec:
                 "build_id": "test-build1",
                 "namespace": "rok-test"
               },
-              "url": "https://packages.redhat.com/api/pulp-content/konflux-direct-signing-test/test-build1/rpms/Packages/l/samba-gpupdate-4.23.4-1.el9.noarch.rpm",
+              "url": "https://packages.redhat.com/api/pulp-content/konflux-direct-signing-test/test-build1/rpms/Packages/s/samba-gpupdate-4.23.4-1.el9.noarch.rpm",
               "sha256": "9a142bf84f0e5429e49679cf21ab2f6f73e158500a8a498cfd31263695df42e8"
             }
           },
@@ -220,6 +220,7 @@ spec:
             "sbom": "https://packages.redhat.com/api/pulp-content/konflux-direct-signing-test/test-build1/sbom/",
             "artifacts": "https://packages.redhat.com/api/pulp-content/konflux-direct-signing-test/test-build1/artifacts/"
           }
+        }
         EOF
 
         echo "All test files created successfully!"
