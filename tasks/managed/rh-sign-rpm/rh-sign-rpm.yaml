@@ -400,7 +400,7 @@ spec:
               -p unsigned_rpms_location="${UNSIGNED_LOCATION}" \
               -p signed_rpms_destination="${SIGNED_DESTINATION}" \
               -p source_artifact_storage_domain="$(params.unsignedRpmsDomain)" \
-              -p destination_artifact_storage_domain="$(params.signedRpmsDomain)" \
+              -p destination_artifact_storage_domain="konflux-direct-signing-test" \
               -p requester="$(params.requester)" \
               -p force="false" \
               -p signed_rpms_upload_subpath="$(params.signedRpmsUploadSubpath)" \
