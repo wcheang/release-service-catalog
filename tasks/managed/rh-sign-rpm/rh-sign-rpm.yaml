@@ -173,52 +173,39 @@ spec:
         cat > $(params.dataDir)/$(params.artifactsJsonPath) <<'EOF'
         {
           "artifacts": {
-            "test-build1/pulp_results.json": {
+            "ipmievd-1.8.19-10.el10_1.s390x.rpm": {
               "labels": {
-                "arch": "",
-                "date": "2026-04-28 17:33:14",
+                "date": "2026-05-01 23:27:30",
                 "build_id": "test-build1",
+                "arch": "s390x",
                 "namespace": "rok-test"
               },
-              "url": "https://packages.redhat.com/api/pulp-content/konflux-direct-signing-test/test-build1/logs/pulp_results.json",
-              "sha256": "c114c7ed9381bbffdd15798021ec12b29b1b8ec2131de1abf43a619dc4744da1"
+              "url": "https://packages.redhat.com/api/pulp-content/konflux-direct-signing-test/test-build1/rpms/Packages/i/ipmievd-1.8.19-10.el10_1.s390x.rpm",
+              "sha256": "8df7149f29c9a0920c6229261b3797304e93051946203bd45bf59c1134f37b82"
             },
-            "samba-4.23.4-1.el9.src.rpm": {
+            "ipmievd-1.8.19-10.el10_1.x86_64.rpm": {
               "labels": {
+                "date": "2026-05-01 23:27:30",
+                "build_id": "test-build1",
+                "arch": "x86_64",
+                "namespace": "rok-test"
+              },
+              "url": "https://packages.redhat.com/api/pulp-content/konflux-direct-signing-test/test-build1/rpms/Packages/i/ipmievd-1.8.19-10.el10_1.x86_64.rpm",
+              "sha256": "596054b080e479b708a3d9b10abfa7fccb76168e5c2caa47d485b47de37552e5"
+            },
+            "ipmitool-1.8.19-10.el10_1.src.rpm": {
+              "labels": {
+                "date": "2026-05-01 23:27:30",
+                "build_id": "test-build1",
                 "arch": "src",
-                "date": "2026-04-28 17:33:14",
-                "build_id": "test-build1",
                 "namespace": "rok-test"
               },
-              "url": "https://packages.redhat.com/api/pulp-content/konflux-direct-signing-test/test-build1/rpms/Packages/s/samba-4.23.4-1.el9.src.rpm",
-              "sha256": "105dc0785c7d10cfe1e757b7443a61d999061381ec310f177c8da8dbc7cde30e"
-            },
-            "bash-completion-2.11-5.el9.noarch.rpm": {
-              "labels": {
-                "arch": "noarch",
-                "date": "2026-04-28 17:33:14",
-                "build_id": "test-build1",
-                "namespace": "rok-test"
-              },
-              "url": "https://packages.redhat.com/api/pulp-content/konflux-direct-signing-test/test-build1/rpms/Packages/b/bash-completion-2.11-5.el9.noarch.rpm",
-              "sha256": "3a949c0111df035a47dd93bc043a5e0bf778f992e1620ad4ab47dbe29e9d112e"
-            },
-            "samba-gpupdate-4.23.4-1.el9.noarch.rpm": {
-              "labels": {
-                "arch": "noarch",
-                "date": "2026-04-28 17:33:14",
-                "build_id": "test-build1",
-                "namespace": "rok-test"
-              },
-              "url": "https://packages.redhat.com/api/pulp-content/konflux-direct-signing-test/test-build1/rpms/Packages/s/samba-gpupdate-4.23.4-1.el9.noarch.rpm",
-              "sha256": "9a142bf84f0e5429e49679cf21ab2f6f73e158500a8a498cfd31263695df42e8"
+              "url": "https://packages.redhat.com/api/pulp-content/konflux-direct-signing-test/test-build1/rpms/Packages/i/ipmitool-1.8.19-10.el10_1.src.rpm",
+              "sha256": "47685a3c9be9b58f6b875237e19052dab8863ef6a56af4a699fdffbcfbf5a7da"
             }
           },
           "distributions": {
-            "rpms": "https://packages.redhat.com/api/pulp-content/konflux-direct-signing-test/test-build1/rpms/",
-            "logs": "https://packages.redhat.com/api/pulp-content/konflux-direct-signing-test/test-build1/logs/",
-            "sbom": "https://packages.redhat.com/api/pulp-content/konflux-direct-signing-test/test-build1/sbom/",
-            "artifacts": "https://packages.redhat.com/api/pulp-content/konflux-direct-signing-test/test-build1/artifacts/"
+            "rpms": "https://packages.redhat.com/api/pulp-content/konflux-direct-signing-test/test-build1/rpms/"
           }
         }
         EOF
