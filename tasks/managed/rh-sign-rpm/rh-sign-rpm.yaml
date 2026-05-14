@@ -392,7 +392,7 @@ spec:
               -p force="false" \
               -p signed_rpms_upload_subpath="$(params.signedRpmsUploadSubpath)" \
               -p taskGitUrl="https://gitlab.cee.redhat.com/signing/signing.git" \
-              -p taskGitRevision="ISV-6773" \
+              -p taskGitRevision="main" \
               -l ${PIPELINERUN_LABEL}="$(params.pipelineRunUid)" \
               -t "$(params.requestTimeout)" \
               --service-account "signing-pipeline-sa" \
