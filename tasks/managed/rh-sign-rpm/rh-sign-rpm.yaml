@@ -382,14 +382,14 @@ spec:
               -p kerberos_principal="${KERBEROS_PRINCIPAL}" \
               -p kerberos_keytab="${KERBEROS_KEYTAB}" \
               -p kerberos_keytab_secret="${KERBEROS_KEYTAB_SECRET}" \
-              -p signing_alias="rsapqtestkey" \
+              -p signing_alias="${SIGNING_ALIAS}" \
               -p artifact_storage_secret="${ARTIFACT_STORAGE_SECRET}" \
               -p unsigned_rpms_location="${UNSIGNED_LOCATION}" \
               -p signed_rpms_destination="${SIGNED_DESTINATION}" \
               -p source_artifact_storage_domain="$(params.unsignedRpmsDomain)" \
               -p destination_artifact_storage_domain="konflux-direct-signing-test" \
               -p requester="$(params.requester)" \
-              -p force="false" \
+              -p force="true" \
               -p signed_rpms_upload_subpath="$(params.signedRpmsUploadSubpath)" \
               -p taskGitUrl="https://gitlab.cee.redhat.com/signing/signing.git" \
               -p taskGitRevision="main" \
